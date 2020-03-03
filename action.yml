@@ -1,0 +1,25 @@
+# ref: https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions
+name:
+description:
+
+# author:
+
+# branding:
+#   color: white, yellow, blue, green, orange, red, purple, gray-dark
+#   icon: # ref: https://help.github.com/en/actions/building-actions/metadata-syntax-for-github-actions#icon
+
+# inputs:
+#   name:
+#     required:
+#     description:
+#     # default:
+
+# outputs:
+#   greeting:
+#     description:
+
+runs:
+  using: docker
+  image: Dockerfile
+  # env:
+  #   NAME: ${{ inputs.name }}
