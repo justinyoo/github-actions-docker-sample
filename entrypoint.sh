@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-cd src
+cd /app/src
 
 dotnet restore .
 dotnet build .
