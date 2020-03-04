@@ -5,8 +5,6 @@ cd /app/src
 dotnet restore .
 dotnet build .
 
-NAME=GitHub
-
 GREETING=$(dotnet run -p GitHubActions.ConsoleApp -- "$NAME")
 
 echo $GREETING
