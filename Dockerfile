@@ -13,8 +13,6 @@ LABEL "maintainer"="Justin Yoo <no-reply@aliencube.com>"
 
 COPY src/ ./src/
 
-ENV NAME=GitHub
-
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
