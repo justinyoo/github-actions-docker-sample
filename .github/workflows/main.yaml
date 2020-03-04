@@ -25,5 +25,5 @@ jobs:
     - name: Get the output
       shell: bash
       run: |
-        echo ${{ consoleapp.outputs.greeting }}
+        echo ${{ steps.consoleapp.outputs.greeting }}
 
