@@ -9,4 +9,4 @@ GREETING=$(dotnet run -p GitHubActions.ConsoleApp -- "$NAME")
 
 echo $GREETING
 
-echo ::set-output greeting=$GREETING
+echo ::set-output name=greeting::$GREETING
