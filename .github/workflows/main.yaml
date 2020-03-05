@@ -20,7 +20,7 @@ jobs:
       id: consoleapp
       uses: ./
       with:
-        name: Live Coding
+        name: Live Demo
 
     - name: Get the output
       shell: bash
